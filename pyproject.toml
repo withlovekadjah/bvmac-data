@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bvmac-data"
+version = "0.1.0"
+description = "Python data access for BVMAC official market bulletins"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pandas>=1.5", "pdfplumber>=0.9", "requests>=2.28"]
+
+[project.scripts]
+bvmac-update = "bvmac.cli:main"
+
+[tool.setuptools]
+packages = ["bvmac"]
+

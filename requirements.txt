@@ -1,0 +1,4 @@
+pandas>=1.5
+pdfplumber>=0.9
+requests>=2.28
+
