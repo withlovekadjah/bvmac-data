@@ -25,11 +25,16 @@ after a separate PyPI release.
 
 ## License and reuse
 
-No software license has been selected for this project. Until one is added,
-the code remains under its default copyright and this repository does not
-grant general permission to reuse, modify, or redistribute it. Please contact
-the author for permission. Do not assume that public visibility means the
-code is open source.
+This project is licensed under the Apache License, Version 2.0. See
+[LICENSE](LICENSE). Copyright © 2026 Kadjah Ngango.
+
+You may use, modify, and redistribute this package under Apache 2.0's terms.
+You retain copyright to your original work; contributors retain copyright to
+their own contributions, which are offered under Apache 2.0 unless a separate
+agreement applies.
+
+This license covers the package code. It does not grant permission to
+redistribute BVMAC bulletin PDFs or other third-party content.
 
 ## Read data already stored on your computer
 
