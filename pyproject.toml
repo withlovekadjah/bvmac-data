@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=68", "wheel"]
+requires = ["setuptools>=77", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,7 +8,27 @@ version = "0.1.0"
 description = "Python data access for BVMAC official market bulletins"
 readme = "README.md"
 requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [{name = "Kadjah Ngango"}]
+keywords = ["BVMAC", "Cameroon", "Central Africa", "market data", "bonds", "stocks"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
 dependencies = ["pandas>=1.5", "pdfplumber>=0.9", "requests>=2.28"]
+
+[project.urls]
+Homepage = "https://github.com/withlovekadjah/bvmac-data"
+Repository = "https://github.com/withlovekadjah/bvmac-data"
+Issues = "https://github.com/withlovekadjah/bvmac-data/issues"
 
 [project.scripts]
 bvmac-update = "bvmac.cli:main"
