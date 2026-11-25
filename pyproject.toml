@@ -15,7 +15,6 @@ keywords = ["BVMAC", "Cameroon", "Central Africa", "market data", "bonds", "stoc
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Financial and Insurance Industry",
-    "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
